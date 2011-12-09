@@ -1,0 +1,14 @@
+#+TITLE:  Basebox: Clean & Uniform Vagrant Baseboxes
+#+AUTHOR: Tim Dysinger
+#+EMAIL:  tim@dysinger.net
+
+This project enables you to automatically build a complete set of
+baseboxes for use with [[http://vagrantup.com][Vagrant]].
+
+Replace your project's 'definitions' folder.  Then build some basebox
+images with veewee/vagrant.
+
+Example:
+#+BEGIN_SRC: sh
+vagrant basebox build centos-5.7
+#+END_SRC
